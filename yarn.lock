@@ -1200,7 +1200,7 @@
   dependencies:
     "webidl-conversions" "^5.0.0"
 
-"emoji-regex@^10.1.0":
+"emoji-regex@^10.2.1":
   "integrity" "sha512-97g6QgOk8zlDRdgq1WxwgTMgEWGVAQvB5Fdpgc1MkNy56la5SKP9GsMXKDOdqwn90/41a8yPwIGk1Y6WVbeMQA=="
   "resolved" "https://registry.npmjs.org/emoji-regex/-/emoji-regex-10.2.1.tgz"
   "version" "10.2.1"
@@ -2976,7 +2976,7 @@
   dependencies:
     "unist-util-visit" "^1.4.0"
 
-"remark-emoji@^3.0.1":
+"remark-emoji@^3.0.2":
   "integrity" "sha512-hEgxEv2sBtvhT3tNG/tQeeFY3EbslftaOoG14dDZndLo25fWJ6Fbg4ukFbIotOWWrfXyASjXjyHT+6n366k3mg=="
   "resolved" "https://registry.npmjs.org/remark-emoji/-/remark-emoji-3.0.2.tgz"
   "version" "3.0.2"
