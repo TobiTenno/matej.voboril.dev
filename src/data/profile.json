@@ -1,0 +1,43 @@
+{
+  "name": "Matt",
+  "birthday": "1990-08-14",
+  "role": "developer",
+  "bio": "senior software engineer & Warfame API maintainer",
+  "alias": "tobitenno",
+  "social": {
+    "twitter": "tobitenno",
+    "github": "tobitenno"
+  },
+  "projectSrcs": [
+    {
+      "type": "orgs",
+      "slug": "WFCD",
+      "ignore": [
+        "banner",
+        "warframe-forum-dark",
+        "Giveaway-overlay",
+        "Warframe.NET",
+        "tennotv",
+        "navis",
+        "genesis-assets",
+        "Mod-Detection-Tools",
+        "warframe-alerts-win",
+        "tennotv-api"
+      ]
+    },
+    {
+      "type": "users",
+      "slug": "TobiTenno",
+      "ignore": [
+        "rowboat-docs",
+        "sinoalice-timers",
+        "tennoclock-uploads",
+        "tobitenno",
+        "discord-cron-actions",
+        "endgame-leaderboards"
+      ]
+    }
+  ],
+  "pagesIgnore": ["/blog", "/timeline"],
+  "domain": "matej.voboril.dev"
+}
