@@ -36,10 +36,24 @@ const ACTIONS: Array<NavigationItem> = [
 	},
 	social.github && {
 		type: NavigationItemType.LINK,
-		external: true,
 		href: `https://github.com/${social.github}`,
 		icon: <Icon className="mr-3" icon="feather:github" />,
 		text: 'GitHub',
+		external: true,
+	},
+	social.patreon && {
+		type: NavigationItemType.LINK,
+		href: `https://patreon.com/${social.patreon}`,
+		icon: <Icon className="mr-3" icon="feather:dollar-sign" />,
+		text: 'Patreon',
+		external: true,
+	},
+	social.kofi && {
+		type: NavigationItemType.LINK,
+		href: `https://ko-fi.com/${social.kofi}`,
+		icon: <Icon className="mr-3" icon="feather:coffee" />,
+		text: 'Ko-Fi',
+		external: true,
 	},
 ].filter(e => e && !pagesIgnore.includes(e.href));
 

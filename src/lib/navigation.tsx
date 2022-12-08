@@ -60,6 +60,20 @@ const staticMenuItems: Array<Array<NavigationItem>> = [
 			href: `https://github.com/${social.github}`,
 			external: true,
 		},
+		social.patreon && {
+			type: NavigationItemType.LINK,
+			icon: 'feather:dollar-sign',
+			text: 'Patreon',
+			href: `https://patreon.com/${social.patreon}`,
+			external: true,
+		},
+		social.kofi && {
+			type: NavigationItemType.LINK,
+			icon: 'feather:coffee',
+			text: 'Ko-Fi',
+			href: `https://ko-fi.com/${social.kofi}`,
+			external: true,
+		},
 	].filter(e => e),
 ];
 

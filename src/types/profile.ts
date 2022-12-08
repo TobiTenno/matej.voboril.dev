@@ -7,6 +7,8 @@ export interface ProjectSrc {
 export interface Social {
 	twitter?: string;
 	github?: string;
+	patreon?: string;
+	kofi?: string;
 }
 
 export interface Profile {
