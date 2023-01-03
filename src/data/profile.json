@@ -40,6 +40,6 @@
       ]
     }
   ],
-  "pagesIgnore": ["/blog", "/timeline"],
+  "pagesIgnore": ["/blog"],
   "domain": "matej.voboril.dev"
 }
